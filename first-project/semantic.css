@@ -1,0 +1,282 @@
+body {
+    margin: 0 auto;
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.BackgroundHeader {
+
+    width: 100%;
+}
+
+.FirstPhoto {
+    width: 100%;
+    background-image: url(/images/bgcolor.png);
+    z-index: 2;
+}
+
+header {
+    width: 100%;
+    background-image: url(bg.png);
+    object-fit: stretch;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.BurgerMenu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 39px;
+    left: 34px;
+}
+
+.HeroTitle {
+    font-size: 24px;
+    margin-top: 36px;
+}
+
+.HeroSubHeader1 {
+    margin-bottom: 13px;
+}
+
+.HeroSubHeader2 {
+    margin-bottom: 41px;
+}
+
+.HeroSubHeader3 {
+    margin-bottom: 50px;
+    size: 13px;
+}
+
+.AboutTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.ContainerAbout {
+    background-color: rgba(255, 250, 242, 1);
+}
+
+.AboutInfo {
+    margin-left: 34px;
+    margin-right: 29px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.AboutSkills {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+.ProfilePhoto {
+    display: flex;
+    justify-content: center;
+}
+
+.SkillsInfo {
+    display: flex;
+    flex-direction: row;
+    padding-right: 32px;
+    padding-left: 34px;
+    padding-top: 26px;
+    padding-bottom: 31px;
+    ;
+}
+
+.FirstProgressBar {
+    margin-bottom: 12px;
+    padding-left: 34px;
+    display: flex;
+    flex-direction: row;
+    size: 12px;
+}
+
+.Expierence {
+    font-size: 12px;
+    padding-right: 16px;
+}
+
+.Color {
+    background-color: rgba(198, 108, 73, 1);
+    height: 18px;
+    width: 135.3px;
+}
+
+.Color2 {
+    padding-right: 76px;
+    background-color: rgba(245, 214, 171, 1)
+}
+
+.ToolsInfo {
+    padding-left: 34px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.SecondProgressBar {
+    margin-top: 18px;
+    margin-bottom: 12px;
+    padding-left: 34px;
+    display: flex;
+    flex-direction: row;
+    size: 12px;
+}
+
+.Color3 {
+    background-color: rgba(198, 108, 73, 1);
+    height: 18px;
+    width: 165.7px;
+}
+
+.Color4 {
+    padding-right: 44.7px;
+    background-color: rgba(245, 214, 171, 1)
+}
+
+.Tools {
+    font-size: 12px;
+    padding-right: 43px;
+}
+
+.UIDesignInfo {
+    padding-left: 34px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.Tools2 {
+    font-size: 12px;
+    padding-right: 24px;
+}
+
+.ThirdProgressBar {
+    margin-top: 18px;
+    margin-bottom: 12px;
+    padding-left: 34px;
+    display: flex;
+    flex-direction: row;
+    size: 12px;
+}
+
+.Color5 {
+    background-color: rgba(198, 108, 73, 1);
+    height: 18px;
+    width: 179px;
+}
+
+.Color6 {
+    padding-right: 31px;
+    background-color: rgba(245, 214, 171, 1)
+}
+
+.PortfolioMain {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Portfolio {
+
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.UXResearch {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.TextUnderUXResearch {
+    color: rgba(51, 51, 51, 1);
+    font-size: 12px;
+    padding-left: 34px;
+    padding-right: 33px;
+
+
+}
+
+.images {
+    padding-top: 29px;
+    padding-left: 34px;
+    padding-right: 33px;
+}
+
+
+footer {
+    background-color: rgba(255, 250, 242, 1);
+}
+
+.GetInTouch {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.DivOrganaiser {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.FooterLeftSide {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between 19px;
+    padding-left: 42px;
+    padding-right: 99px;
+    color: rgba(51, 51, 51, 1);
+    gap: 19px;
+}
+
+.FooterRightSide {
+    color: rgba(51, 51, 51, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.PersonalInfo {
+    color: rgba(51, 51, 51, 1);
+    padding-left: 42px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.NavigationPersonalInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.ChevronUp {
+    color: rgba(51, 51, 51, 1);
+    display: flex;
+    padding-right: 32px;
+    padding-bottom: 58px;
+    padding-top: 8px;
+}
+
+.NavigateChevronUp {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    padding-left: 146px;
+    padding-bottom: 58px;
+}
